@@ -373,6 +373,7 @@ section {
     margin: 20px 10px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
     position: relative;
+    color: #fff;
   }
   .testimonial-card i {
     font-size: 2rem;
@@ -476,4 +477,265 @@ footer {
   footer i.fab, footer i.fas {
     font-size: 18px;
   }
-  
+  li.breadcrumb-item.active.text-colors {
+    color: #f0640c;
+}
+
+/* Custom Styles */
+.text-orange {
+  color: #FF4500;
+}
+
+.btn-orange {
+  background-color: #FF4500;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  font-size: 14px;
+}
+
+.btn-orange:hover {
+  background-color: #e03e00;
+  color: #fff;
+}
+
+.rounded-4 {
+  border-radius: 1.5rem;
+}
+
+.shadow-sm {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.icon-circle {
+  width: 5%;
+  height: 25px;
+  background: #FF4500;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon-circle i {
+  color: white;
+  font-size: 14px;
+}
+
+.item-text {
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .item-text {
+    font-size: 14px;
+  }
+}
+.blog-header {
+  margin-bottom: 2rem;
+}
+.blog-header h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.blog-header h2 span {
+  color: #f7541a;
+}
+.blog-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.blog-content {
+  padding: 20px;
+}
+.blog-meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+.btn-read {
+  font-weight: bold;
+  color: #f7541a;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.btn-read:hover {
+  color: #000;
+}
+.btn-viewall {
+  background-color: #f7541a;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.btn-viewall:hover {
+  background-color: #d6450f;
+}
+
+.team-section {
+  padding: 60px 0;
+}
+.team-card {
+  background: #fff;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.team-card:hover {
+  transform: translateY(-10px);
+}
+.team-card img {
+  border-bottom: 3px solid #ff4500;
+  padding: 20px;
+  width: 100%;
+  object-fit: cover;
+}
+.team-info {
+  padding: 20px;
+  text-align: center;
+}
+.team-info h5 {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #212529;
+}
+.team-info p {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.social-icons a:hover {
+  color: #212529;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.stars i {
+  margin-right: 2px;
+}
+
+.avatar img {
+  border: 3px solid #ff4500;
+  padding: 3px;
+}
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* optional: makes images look better */
+}
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.icon-circles {
+  width: 60px;
+  height: 60px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.badge-custom {
+  background-color: #ffe8d6;
+  color: #ff6f00;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.icon-circles {
+  background: #ff6f00;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+.icon-circles i {
+  color: white;
+  font-size: 20px;
+}
+
+a.btn.btn-learns.btn-sm.mt-2 {
+  background: #f0640c;
+  color: #fff;
+}
+
+.team-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+.team-member {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.team-member:hover {
+  transform: translateY(-10px);
+}
+.team-member img {
+  width: 100%;
+  height: auto;
+}
+.team-content {
+  padding: 20px;
+  text-align: center;
+}
+.team-content h5 {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.team-content p {
+  font-size: 14px;
+  color: #6c757d;
+}
+.team-social {
+  margin-top: 15px;
+}
+.team-social a {
+  color: #f0640c;
+  margin: 0 8px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+.team-social a:hover {
+  color: #0056b3;
+}
