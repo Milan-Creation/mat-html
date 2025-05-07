@@ -20,45 +20,48 @@
     <link rel="stylesheet" href="style.css" />
 
     <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+
+    <!-- Add Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
     
-      <!-- Top Bar -->
-      <div class="top-bar py-0">
-        <div class="container">
-          <div class="row align-items-center">
-            <!-- Left side: contact info -->
-            <div class="col-12 col-md-8 mb-2 mb-md-0">
-              <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 gap-md-4">
-                <div>
-                  <i class="fas fa-map-marker-alt "></i>
-                  <a href="https://www.google.com/maps/search/?api=1&query=1st+Floor,+101,+SCO+21,+Feroze+Gandhi+Market+Rd,+Ludhiana,+Punjab+141002" target="_blank">
-                    1st Floor, 105, SCO 21, Feroze Gandhi Market Rd, Ludhiana, Punjab 141002
-                  </a>
-                </div>
-                <div>
-                  <i class="fas fa-envelope "></i>
-                  <a href="mailto:support@mattech.dev">support@mattech.dev</a>
-                </div>
+    <!-- Top Bar -->
+    <div class="top-bar py-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left side: contact info -->
+          <div class="col-12 col-md-8 mb-2 mb-md-0 navs-section">
+            <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 gap-md-4">
+              <div>
+                <i class="fas fa-map-marker-alt me-1"></i>
+                <a href="https://www.google.com/maps/search/?api=1&query=1st+Floor,+101,+SCO+21,+Feroze+Gandhi+Market+Rd,+Ludhiana,+Punjab+141002" target="_blank">
+                  1st Floor, 105, SCO 21, Feroze Gandhi Market Rd, Ludhiana, Punjab 141002
+                </a>
               </div>
-              
+              <div>
+                <i class="fas fa-envelope me-1"></i>
+                <a href="mailto:support@mattech.dev">support@mattech.dev</a>
+              </div>
             </div>
-  
-            <!-- Right side: social icons -->
-            <div class="col-12 col-md-4 text-md-end">
-              <div
-                class="social-icons d-flex justify-content-start justify-content-md-end gap-2"
-              >
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-              </div>
+            
+          </div>
+
+          <!-- Right side: social icons -->
+          <div class="col-12 col-md-4 text-md-end social-icons-navbar">
+            <div
+              class="social-icons d-flex justify-content-start justify-content-md-end gap-2"
+            >
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
             </div>
           </div>
         </div>
       </div>
-  
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-white shadow-sm">
       <div class="container">
@@ -118,79 +121,78 @@
     </div>
   </section>
 
-   
-    <section class="team-section text-center">
-        <div class="container">
-          <h2 class="mb-5 fw-bold">Dedicated Team Members</h2>
-          <div class="row g-4">
-            
-            <!-- Member 1 -->
-            <div class="col-md-6 col-lg-3">
-              <div class="team-card">
-                <img src="assets/user-1.png" alt="React Developer">
-                <div class="team-info">
-                  <h5>Mintu Dubey</h5>
-                  <p>React Developer</p>
-                  <div class="social-icons">
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+ <section class="team-section text-center py-5">
+  <div class="container">
+    <h2 class="mb-5 fw-bold">Dedicated Team Members</h2>
+    <div class="row g-4">
       
-            <!-- Member 2 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="team-card">
-                  <img src="assets/user-2.png" alt="Full-Stack Developer">
-                  <div class="team-info">
-                    <h5>Rohit Kumar</h5>
-                    <p>Full-Stack Developer</p>
-                    <div class="social-icons">
-                      <a href="#"><i class="bi bi-facebook"></i></a>
-                      <a href="#"><i class="bi bi-twitter"></i></a>
-                      <a href="#"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        
-            <!-- Member 3 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="team-card">
-                  <img src="assets/user-3.png" alt="Blockchain Developer">
-                  <div class="team-info">
-                    <h5>Harshpreet Singh</h5>
-                    <p>Blockchain Developer</p>
-                    <div class="social-icons">
-                      <a href="#"><i class="bi bi-facebook"></i></a>
-                      <a href="#"><i class="bi bi-twitter"></i></a>
-                      <a href="#"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        
-            <!-- Member 4 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="team-card">
-                  <img src="assets/user-4.png" alt="Back-End Developer">
-                  <div class="team-info">
-                    <h5>Urmila</h5>
-                    <p>Back-End Developer</p>
-                    <div class="social-icons">
-                      <a href="#"><i class="bi bi-facebook"></i></a>
-                      <a href="#"><i class="bi bi-twitter"></i></a>
-                      <a href="#"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        
+      <!-- Member 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <img src="assets/user-1.png" alt="React Developer" class="img-fluid">
+          <div class="team-info">
+            <h5>Mintu Dubey</h5>
+            <p>React Developer</p>
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      <!-- Member 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <img src="assets/user-2.png" alt="Full-Stack Developer" class="img-fluid">
+          <div class="team-info">
+            <h5>Rohit Kumar</h5>
+            <p>Full-Stack Developer</p>
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <img src="assets/user-3.png" alt="Blockchain Developer" class="img-fluid">
+          <div class="team-info">
+            <h5>Harshpreet Singh</h5>
+            <p>Blockchain Developer</p>
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <img src="assets/user-4.png" alt="Back-End Developer" class="img-fluid">
+          <div class="team-info">
+            <h5>Urmila</h5>
+            <p>Back-End Developer</p>
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <section class="py-5 bg-light">
         <div class="container text-center">
@@ -336,6 +338,8 @@
       
         </div>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
       
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script><script  src="./script.js"></script>
       <script src="main.js"></script>
