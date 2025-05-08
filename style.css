@@ -574,6 +574,7 @@ body {
   color: white;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  padding: 50px;
 }
 
 .highlight {
