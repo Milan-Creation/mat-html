@@ -1,280 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Milan Advanced Technologies</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
 
-    <!-- swiper link -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Milan Advanced Technologies</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- swiper link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style.css" />
 
-    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 
-    <!-- Add this in your head section -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
+  <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
 
-  <body>
-    <!-- Top Bar -->
-    <div class="top-bar py-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <!-- Left side: contact info -->
-          <div class="col-12 col-md-8 mb-2 mb-md-0 navs-section">
-            <div
-              class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 gap-md-4"
-            >
-              <div>
-                <i class="fas fa-map-marker-alt me-1"></i>
-                <a
-                  href="https://www.google.com/maps/search/?api=1&query=1st+Floor,+101,+SCO+21,+Feroze+Gandhi+Market+Rd,+Ludhiana,+Punjab+141002"
-                  target="_blank"
-                >
-                  1st Floor, 105, SCO 21, Feroze Gandhi Market Rd, Ludhiana,
-                  Punjab 141002
-                </a>
-              </div>
-              <div>
-                <i class="fas fa-envelope me-1"></i>
-                <a href="mailto:support@mattech.dev">support@mattech.dev</a>
-              </div>
+  <!-- Add this in your head section -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar py-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left side: contact info -->
+        <div class="col-12 col-md-8 mb-2 mb-md-0 navs-section">
+          <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 gap-md-4">
+            <div>
+              <i class="fas fa-map-marker-alt me-1"></i>
+              <a href="https://www.google.com/maps/search/?api=1&query=1st+Floor,+101,+SCO+21,+Feroze+Gandhi+Market+Rd,+Ludhiana,+Punjab+141002"
+                target="_blank">
+                1st Floor, 105, SCO 21, Feroze Gandhi Market Rd, Ludhiana,
+                Punjab 141002
+              </a>
+            </div>
+            <div>
+              <i class="fas fa-envelope me-1"></i>
+              <a href="mailto:support@mattech.dev">support@mattech.dev</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right side: social icons -->
+        <div class="col-12 col-md-4 text-md-end social-icons-navbar">
+          <div class="social-icons d-flex justify-content-start justify-content-md-end gap-2">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/milan-logo.png" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="companyDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">About Us</a></li>
+              <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="services.html">Services</a>
+          </li>
+
+          <li class="nav-item ms-3">
+            <a href="contact.html" class="btn-quote">GET A QUOTE NOW</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="position-relative overflow-hidden">
+      <div class="circle-lines"></div>
+
+      <div class="container-fluid hero-section">
+        <div class="row align-items-center" style="min-height: 90vh">
+          <div class="col-md-7 position-relative p-5">
+            <div class="badge badge-custom mb-3 fade-in">
+              BEST IT SOLUTION PROVIDER
+            </div>
+
+            <h1 class="section-title animated-heading">
+              <span class="highlight fade-in-left">Elevate Your Business</span>
+              <span class="fade-in-right">with IT Excellence</span>
+            </h1>
+
+            <p class="text-white animated-paragraph">
+              <span class="word">We</span>
+              <span class="word">have</span>
+              <span class="word">been</span>
+              <span class="word">operating</span>
+              <span class="word">for</span>
+              <span class="word">over</span>
+              <span class="word">a</span>
+              <span class="word">decade</span>
+              <span class="word">providing</span>
+              <span class="word">innovative</span>
+              <span class="word">IT</span>
+              <span class="word">solutions</span>
+            </p>
+            <div class="animate__animated" id="animated_div">
+              <a href="contact.html" class="btn-starts">GET STARTED NOW</a>
             </div>
           </div>
 
-          <!-- Right side: social icons -->
-          <div class="col-12 col-md-4 text-md-end social-icons-navbar">
-            <div
-              class="social-icons d-flex justify-content-start justify-content-md-end gap-2"
-            >
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <div class="col-md-5 text-center">
+            <div class="position-relative hero-image-container">
+              <img src="assets/hero-section.png" alt="IT Solutions"
+                class="hero-image img-fluid animate__animated animate__fadeInRight animate__delay-1s" />
+              <div class="hero-image-glow animate__animated animate__fadeIn animate__delay-5s"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-          <img src="assets/milan-logo.png" alt="Logo" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-dark"
-                href="#"
-                id="companyDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                Company
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                <li><a class="dropdown-item" href="team.html">Our Team</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="services.html">Services</a>
-            </li>
-
-            <li class="nav-item ms-3">
-              <a href="contact.html" class="btn-quote">GET A QUOTE NOW</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero-section">
-      <div class="position-relative overflow-hidden">
-        <div class="circle-lines"></div>
-
-        <div class="container-fluid hero-section">
-          <div class="row align-items-center" style="min-height: 90vh">
-            <div class="col-md-7 position-relative p-5">
-              <div class="badge badge-custom mb-3 fade-in">
-                BEST IT SOLUTION PROVIDER
-              </div>
-
-              <h1 class="section-title animated-heading">
-                <span class="highlight fade-in-left"
-                  >Elevate Your Business</span
-                >
-                <span class="fade-in-right">with IT Excellence</span>
-              </h1>
-
-              <p class="text-white animated-paragraph">
-                <span class="word">We</span>
-                <span class="word">have</span>
-                <span class="word">been</span>
-                <span class="word">operating</span>
-                <span class="word">for</span>
-                <span class="word">over</span>
-                <span class="word">a</span>
-                <span class="word">decade</span>
-                <span class="word">providing</span>
-                <span class="word">innovative</span>
-                <span class="word">IT</span>
-                <span class="word">solutions</span>
-              </p>
-              <div class="animate__animated" id="animated_div">
-                <a href="contact.html" class="btn-starts">GET STARTED NOW</a>
-              </div>
+  <!-- About us -->
+  <section class="container py-5">
+    <div class="row align-items-center">
+      <!-- Left Side - Animated -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="d-flex flex-column gap-4" data-aos="fade-right" data-aos-duration="800">
+          <div class="position-relative">
+            <div class="position-absolute bottom-5 start-0 bg-danger text-white px-4 py-1 rounded-end-4 fw-bold">
+              BEST IT SOLUTION
             </div>
-
-            <div class="col-md-5 text-center">
-              <div class="position-relative hero-image-container">
-                <img
-                  src="assets/hero-section.png"
-                  alt="IT Solutions"
-                  class="hero-image img-fluid animate__animated animate__fadeInRight animate__delay-1s"
-                />
-                <div
-                  class="hero-image-glow animate__animated animate__fadeIn animate__delay-5s"
-                ></div>
-              </div>
-            </div>
+          </div>
+          <div class="position-relative">
+            <img src="assets/about-us.png" class="img-fluid rounded-4" alt="Businesswoman with tablet" />
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- About us -->
-    <section class="container py-5">
-      <div class="row align-items-center">
-        <!-- Left Side - Animated -->
-        <div class="col-lg-6 mb-4 mb-lg-0">
-          <div
-            class="d-flex flex-column gap-4"
-            data-aos="fade-right"
-            data-aos-duration="800"
-          >
-            <div class="position-relative">
-              <div
-                class="position-absolute bottom-5 start-0 bg-danger text-white px-4 py-1 rounded-end-4 fw-bold"
-              >
-                BEST IT SOLUTION
-              </div>
-            </div>
-            <div class="position-relative">
-              <img
-                src="assets/about-us.png"
-                class="img-fluid rounded-4"
-                alt="Businesswoman with tablet"
-              />
-            </div>
+      <!-- Right Side - Animated -->
+      <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+        <h1 class="fw-bold mb-4">
+          <span class="line-1">Essential IT Solutions</span> <br />
+          <span class="line-2">For Modern
+            <span class="text-oranges highlight">Businesses.</span></span>
+        </h1>
+
+        <p class="text-muted mb-4">
+          Discover the essential IT solutions every modern business needs to
+          stay secure, efficient, and competitive. From cloud computing to
+          cybersecurity and expert IT consulting, learn how the right
+          technology can transform your operations and drive growth.
+        </p>
+
+        <div class="d-flex align-items-center mb-4">
+          <div class="bg-light rounded-3 p-3 me-3">
+            <img src="assets/about4.png" alt="Cloud Icon" width="40" />
+          </div>
+          <div>
+            <h5 class="fw-bold mb-1">Cloud Based Solution</h5>
+            <p class="text-muted small mb-0">
+              Move beyond traditional servers with scalable, cost-effective
+              cloud solutions. Enjoy flexible storage, remote access, and
+              real-time collaboration—anytime, anywhere.
+            </p>
           </div>
         </div>
 
-        <!-- Right Side - Animated -->
-        <div
-          class="col-lg-6"
-          data-aos="fade-left"
-          data-aos-duration="800"
-          data-aos-delay="200"
-        >
-          <h1 class="fw-bold mb-4">
-            <span class="line-1">Essential IT Solutions</span> <br />
-            <span class="line-2"
-              >For Modern
-              <span class="text-oranges highlight">Businesses.</span></span
-            >
-          </h1>
-
-          <p class="text-muted mb-4">
-            Discover the essential IT solutions every modern business needs to
-            stay secure, efficient, and competitive. From cloud computing to
-            cybersecurity and expert IT consulting, learn how the right
-            technology can transform your operations and drive growth.
-          </p>
-
-          <div class="d-flex align-items-center mb-4">
-            <div class="bg-light rounded-3 p-3 me-3">
-              <img src="assets/about4.png" alt="Cloud Icon" width="40" />
-            </div>
-            <div>
-              <h5 class="fw-bold mb-1">Cloud Based Solution</h5>
-              <p class="text-muted small mb-0">
-                Move beyond traditional servers with scalable, cost-effective
-                cloud solutions. Enjoy flexible storage, remote access, and
-                real-time collaboration—anytime, anywhere.
-              </p>
-            </div>
-          </div>
-
-          <a
-            href="about.html"
-            class="btn btn-starts btn-lg rounded-pill px-5 text-white"
-            data-aos="fade-up"
-            data-aos-delay="400"
-            >Explore More</a
-          >
-        </div>
+        <a href="about.html" class="btn btn-starts btn-lg rounded-pill px-5 text-white" data-aos="fade-up"
+          data-aos-delay="400">Explore More</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Services -->
-    <section class="section-services">
-      <div class="container py-5">
-        <div
-          class="text-center mb-5"
-          data-aos="fade-down"
-          data-aos-duration="800"
-        >
-          <div
-            class="badge badge-custom mb-2"
-            data-aos="fade-up"
-            data-aos-duration="600"
-            data-aos-delay="200"
-          >
-            Milan Advanced Technologies Services
-          </div>
-          <h2
-            class="section-title"
-            data-aos="fade-down"
-            data-aos-duration="600"
-            data-aos-delay="400"
-          >
-            How Professional IT Services Can Drive
-            <span
-              class="highlight"
-              data-aos="fade-in"
-              data-aos-duration="800"
-              data-aos-delay="600"
-              >Success</span
-            >.
-          </h2>
+  <!-- Services -->
+  <section class="section-services">
+    <div class="container py-5">
+      <div class="text-center mb-5" data-aos="fade-down" data-aos-duration="800">
+        <div class="badge badge-custom mb-2" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+          Milan Advanced Technologies Services
         </div>
+        <h2 class="section-title" data-aos="fade-down" data-aos-duration="600" data-aos-delay="400">
+          How Professional IT Services Can Drive
+          <span class="highlight" data-aos="fade-in" data-aos-duration="800" data-aos-delay="600">Success</span>.
+        </h2>
+      </div>
 
-        <!-- <div class="row g-4">
           <div class="col-md-6 col-lg-3">
             <div class="service-card text-center h-100">
               <div class="service-icon">
@@ -319,594 +250,382 @@
             </div>
           </div>
         </div> -->
-        <section>
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide swiper-slide--one">
-                <span>Software Development</span>
-                <div>
-                  <h2>
-                    Building, testing, and maintaining software applications for
-                    various business needs.
-                  </h2>
-                </div>
-              </div>
-              <div class="swiper-slide swiper-slide--two">
-                <span>Project Of Marketing</span>
-                <div>
-                  <h2>
-                    Strategic marketing projects boosting brand visibility and
-                    driving customer engagement.
-                  </h2>
-                </div>
-              </div>
-
-              <div class="swiper-slide swiper-slide--three">
-                <span>App Development</span>
-                <div>
-                  <h2>
-                    Designing, coding, and launching mobile applications for
-                    diverse user experiences.
-                  </h2>
-                </div>
-              </div>
-
-              <div class="swiper-slide swiper-slide--four">
-                <span>Digital Project Design</span>
-                <div>
-                  <h2>
-                    Creating intuitive, engaging digital products focused on
-                    user-centered experiences.
-                  </h2>
-                </div>
-              </div>
-
-              <div class="swiper-slide swiper-slide--five">
-                <span>CMC Software Solutions</span>
-                <div>
-                  <h2>
-                    Delivering customized, innovative software services tailored
-                    to client requirements.
-                  </h2>
-                </div>
+      <section>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide--one">
+              <span>Software Development</span>
+              <div>
+                <h2>
+                  Building, testing, and maintaining software applications for
+                  various business needs.
+                </h2>
               </div>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-          </div>
-        </section>
-      </div>
-    </section>
+            <div class="swiper-slide swiper-slide--two">
+              <span>Project Of Marketing</span>
+              <div>
+                <h2>
+                  Strategic marketing projects boosting brand visibility and
+                  driving customer engagement.
+                </h2>
+              </div>
+            </div>
 
-    <!-- Main Container -->
-    <div class="container py-5">
-      <div class="row align-items-center">
-        <!-- Left Column - Animated -->
-        <div class="col-md-6" data-aos="fade-left" data-aos-duration="800">
-          <h2 class="mb-4 fw-bold">
-            A Comprehensive
-            <span class="highlight" data-aos="fade-in" data-aos-delay="400"
-              >Guide.</span
-            >
-          </h2>
-          <p class="text-muted mb-4" data-aos="fade-left" data-aos-delay="200">
-            Alternative innovation network environmental whiteboard pursue for
-            premier methods empowerment go forward opportunities.
+            <div class="swiper-slide swiper-slide--three">
+              <span>App Development</span>
+              <div>
+                <h2>
+                  Designing, coding, and launching mobile applications for
+                  diverse user experiences.
+                </h2>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide--four">
+              <span>Digital Project Design</span>
+              <div>
+                <h2>
+                  Creating intuitive, engaging digital products focused on
+                  user-centered experiences.
+                </h2>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide--five">
+              <span>CMC Software Solutions</span>
+              <div>
+                <h2>
+                  Delivering customized, innovative software services tailored
+                  to client requirements.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <!-- Left Column - Animated -->
+      <div class="col-md-6" data-aos="fade-left" data-aos-duration="800">
+        <h2 class="mb-4 fw-bold">
+          A Comprehensive
+          <span class="highlight" data-aos="fade-in" data-aos-delay="400">Guide.</span>
+        </h2>
+        <p class="text-muted mb-4" data-aos="fade-left" data-aos-delay="200">
+          Alternative innovation network environmental whiteboard pursue for
+          premier methods empowerment go forward opportunities.
+        </p>
+
+        <!-- Accordion Section - Animated Items -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item mb-3" data-aos="fade-left" data-aos-delay="300">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne">
+                What Medical Services Do You Provide?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                We offer various enterprise-grade medical and IT solutions
+                tailored to your needs.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item mb-3" data-aos="fade-left" data-aos-delay="400">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo">
+                What is your customer geography?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Our services are available worldwide with a strong focus on
+                North America, Europe, and Asia.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item" data-aos="fade-left" data-aos-delay="500">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree">
+                What are the main industries we serve?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Appropriately promote enterprise-wide portals through
+                innovative information systems for various industries
+                including healthcare, finance, and tech.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column - Animated -->
+      <div class="col-md-6 text-center" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+        <h1 class="section-title mb-4 pt-4">
+          Keeping Your Business <br />
+          Safe and
+          <span class="highlight" data-aos="fade-in" data-aos-delay="600">Available.</span>
+        </h1>
+        <img src="assets/safe-bussiness.png" alt="Business Meeting" class="img-fluid rounded-4" data-aos="zoom-in"
+          data-aos-delay="400" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <section class="testimonials py-5">
+    <div class="container">
+      <div class="mb-5 text-center" data-aos="fade-down" data-aos-duration="600">
+        <h1 class="fw-bold" style="color: #ff4c29">Testimonials</h1>
+        <h4 class="mt-3">
+          What Our Customers <span style="color: #ff4c29">Say</span>
+        </h4>
+      </div>
+
+      <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
+            <div class="quote-icon">
+              <i class="bi bi-quote" style="color: #ff4c29; font-size: 2.5rem"></i>
+            </div>
+            <p class="testimonial-text">
+              "Paradigms. Monotonectally extend open-source via competitive
+              methods of empowerment and revolutionize stand-business."
+            </p>
+            <div class="stars mb-3" style="color: #ffc107">★ ★ ★ ★ ★</div>
+            <div class="profile d-flex flex-column align-items-center">
+              <div class="profile-img-wrapper" data-aos="zoom-in" data-aos-delay="300">
+                <img src="assets/images.jpg" alt="Profile Picture" class="rounded-circle shadow"
+                  style="width: 80px; height: 80px; object-fit: cover" />
+              </div>
+              <div class="profile-name mt-3 fw-bold">Alberta Infantino</div>
+              <div class="profile-role text-muted">Developer</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
+            <div class="quote-icon">
+              <i class="bi bi-quote" style="color: #ff4c29; font-size: 2.5rem"></i>
+            </div>
+            <p class="testimonial-text">
+              "Paradigms. Monotonectally extend open-source via competitive
+              methods of empowerment and revolutionize stand-business."
+            </p>
+            <div class="stars mb-3" style="color: #ffc107">★ ★ ★ ★ ★</div>
+            <div class="profile d-flex flex-column align-items-center">
+              <div class="profile-img-wrapper" data-aos="zoom-in" data-aos-delay="500">
+                <img src="assets/images.jpg" alt="Profile Picture" class="rounded-circle shadow"
+                  style="width: 80px; height: 80px; object-fit: cover" />
+              </div>
+              <div class="profile-name mt-3 fw-bold">Hosain Al-Amin</div>
+              <div class="profile-role text-muted">Developer</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
+            <div class="quote-icon">
+              <i class="bi bi-quote" style="color: #ff4c29; font-size: 2.5rem"></i>
+            </div>
+            <p class="testimonial-text">
+              "Paradigms. Monotonectally extend open-source via competitive
+              methods of empowerment and revolutionize stand-business."
+            </p>
+            <div class="stars mb-3" style="color: #ffc107">★ ★ ★ ★ ★</div>
+            <div class="profile d-flex flex-column align-items-center">
+              <div class="profile-img-wrapper" data-aos="zoom-in" data-aos-delay="700">
+                <img src="assets/images.jpg" alt="Profile Picture" class="rounded-circle shadow"
+                  style="width: 80px; height: 80px; object-fit: cover" />
+              </div>
+              <div class="profile-name mt-3 fw-bold">M. Kamrul Islam</div>
+              <div class="profile-role text-muted">Developer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <div class="container-fluid py-5 overflow-hidden">
+    <div class="row align-items-center g-4">
+      <!-- Form Section - Rain Drop Animation -->
+      <div class="col-12 col-md-6">
+        <div class="form-container px-3" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-back">
+          <div class="form-title mb-3" data-aos="fade-down" data-aos-delay="200">
+            Make an Online Appointment Booking<br />
+            For Business Planning
+          </div>
+          <form>
+            <!-- Animated Form Rows -->
+            <div class="row mb-3">
+              <div class="col-12 col-sm-6 mb-2 mb-sm-0" data-aos="fade-right" data-aos-delay="300">
+                <input type="text" class="form-control rain-drop" placeholder="Your Name *" required />
+              </div>
+              <div class="col-12 col-sm-6" data-aos="fade-left" data-aos-delay="400">
+                <input type="email" class="form-control rain-drop" placeholder="Your E-Mail *" required />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-12 col-sm-6 mb-2 mb-sm-0" data-aos="fade-right" data-aos-delay="500">
+                <input type="text" class="form-control rain-drop" placeholder="Subject *" required />
+              </div>
+              <div class="col-12 col-sm-6" data-aos="fade-left" data-aos-delay="600">
+                <input type="tel" class="form-control rain-drop" placeholder="Phone *" required />
+              </div>
+            </div>
+            <div class="mb-3" data-aos="fade-up" data-aos-delay="700">
+              <textarea class="form-control rain-drop" placeholder="Message" rows="4" required></textarea>
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="800">
+              <button type="submit" class="btn btn-custom btn-submit w-50 text-white rain-drop">
+                Send Now
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Image Section - Animated -->
+      <div class="col-12 col-md-6 text-center" data-aos="zoom-in-left" data-aos-delay="300">
+        <img src="assets/contact.jpg" alt="Team Meeting" class="img-fluid floating-img" />
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-white pt-5 pb-4 position-relative overflow-hidden">
+    <!-- Rain animation elements -->
+    <div class="rain-animation">
+      <div class="rain-drop"></div>
+      <div class="rain-drop"></div>
+      <div class="rain-drop"></div>
+      <!-- Add more drops as needed -->
+    </div>
+
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+        <!-- Logo & Description -->
+        <div class="col-md-3 col-lg-6 col-xl-3 mx-auto mt-3">
+          <a class="navbar-brand d-flex align-items-center logo-animate" href="#">
+            <img src="assets/milan-logo.png" alt="Logo" class="img-fluid footer-logo" />
+          </a>
+          <p class="fade-in-text">
+            Globally monetize plug-and-play data and disseminate oriented
+            business multifunctional mind design.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="text-white me-4 social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-4 social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-4 social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white me-4 social-icon"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Useful Links</h5>
+          <p>
+            <a href="about.html" class="text-white text-decoration-none footer-navlink">About Company</a>
+          </p>
+          <p>
+            <a href="team.html" class="text-white text-decoration-none footer-navlink">Meet Our Team</a>
+          </p>
+          <p>
+            <a href="contact.html" class="text-white text-decoration-none footer-navlink">Contact Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">Testimonials</a>
+          </p>
+        </div>
+
+        <!-- Services -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Services</h5>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">Cyber Security</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">UI/UX Design</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">App Development</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">Technology Consult</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">IT Solution</a>
+          </p>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Newsletter</h5>
+          <p class="fade-in-text">
+            Subscribe to get the latest updates and offers.
           </p>
 
-          <!-- Accordion Section - Animated Items -->
-          <div class="accordion" id="accordionExample">
-            <div
-              class="accordion-item mb-3"
-              data-aos="fade-left"
-              data-aos-delay="300"
-            >
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed bg-white"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                >
-                  What Medical Services Do You Provide?
-                </button>
-              </h2>
-              <div
-                id="collapseOne"
-                class="accordion-collapse collapse show"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  We offer various enterprise-grade medical and IT solutions
-                  tailored to your needs.
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="accordion-item mb-3"
-              data-aos="fade-left"
-              data-aos-delay="400"
-            >
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed bg-white"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                >
-                  What is your customer geography?
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  Our services are available worldwide with a strong focus on
-                  North America, Europe, and Asia.
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="accordion-item"
-              data-aos="fade-left"
-              data-aos-delay="500"
-            >
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button bg-white"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                >
-                  What are the main industries we serve?
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  Appropriately promote enterprise-wide portals through
-                  innovative information systems for various industries
-                  including healthcare, finance, and tech.
-                </div>
-              </div>
-            </div>
-          </div>
+          <form class="d-flex">
+            <input type="email" class="form-control me-2 input-animate" placeholder="Enter your email" required />
+            <button class="btn btn-danger btn-animate" type="submit">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
         </div>
+      </div>
 
-        <!-- Right Column - Animated -->
-        <div
-          class="col-md-6 text-center"
-          data-aos="fade-right"
-          data-aos-duration="800"
-          data-aos-delay="200"
-        >
-          <h1 class="section-title mb-4 pt-4">
-            Keeping Your Business <br />
-            Safe and
-            <span class="highlight" data-aos="fade-in" data-aos-delay="600"
-              >Available.</span
-            >
-          </h1>
-          <img
-            src="assets/safe-bussiness.png"
-            alt="Business Meeting"
-            class="img-fluid rounded-4"
-            data-aos="zoom-in"
-            data-aos-delay="400"
-          />
+      <!-- Copyright -->
+      <hr class="mb-4" />
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p class="fade-in-text">
+            © 2025 Milen Advanced Technologies. All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-end">
+            <a href="#" class="text-white text-decoration-none me-4 link-animate">Privacy Policy</a>
+            <a href="#" class="text-white text-decoration-none link-animate">Supports</a>
+          </div>
         </div>
       </div>
     </div>
+  </footer>
 
-    <!-- Testimonials -->
-    <section class="testimonials py-5">
-      <div class="container">
-        <div
-          class="mb-5 text-center"
-          data-aos="fade-down"
-          data-aos-duration="600"
-        >
-          <h1 class="fw-bold" style="color: #ff4c29">Testimonials</h1>
-          <h4 class="mt-3">
-            What Our Customers <span style="color: #ff4c29">Say</span>
-          </h4>
-        </div>
+  <!-- Add these scripts at the end of your body -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
 
-        <div class="row justify-content-center">
-          <!-- Card 1 -->
-          <div class="col-md-4 mb-4">
-            <div
-              class="testimonial-card"
-              data-aos="zoom-in"
-              data-aos-duration="500"
-              data-aos-delay="100"
-            >
-              <div class="quote-icon">
-                <i
-                  class="bi bi-quote"
-                  style="color: #ff4c29; font-size: 2.5rem"
-                ></i>
-              </div>
-              <p class="testimonial-text">
-                "Paradigms. Monotonectally extend open-source via competitive
-                methods of empowerment and revolutionize stand-business."
-              </p>
-              <div class="stars mb-3" style="color: #ffc107">★ ★ ★ ★ ★</div>
-              <div class="profile d-flex flex-column align-items-center">
-                <div
-                  class="profile-img-wrapper"
-                  data-aos="zoom-in"
-                  data-aos-delay="300"
-                >
-                  <img
-                    src="assets/images.jpg"
-                    alt="Profile Picture"
-                    class="rounded-circle shadow"
-                    style="width: 80px; height: 80px; object-fit: cover"
-                  />
-                </div>
-                <div class="profile-name mt-3 fw-bold">Alberta Infantino</div>
-                <div class="profile-role text-muted">Developer</div>
-              </div>
-            </div>
-          </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-          <!-- Card 2 -->
-          <div class="col-md-4 mb-4">
-            <div
-              class="testimonial-card"
-              data-aos="zoom-in"
-              data-aos-duration="500"
-              data-aos-delay="300"
-            >
-              <div class="quote-icon">
-                <i
-                  class="bi bi-quote"
-                  style="color: #ff4c29; font-size: 2.5rem"
-                ></i>
-              </div>
-              <p class="testimonial-text">
-                "Paradigms. Monotonectally extend open-source via competitive
-                methods of empowerment and revolutionize stand-business."
-              </p>
-              <div class="stars mb-3" style="color: #ffc107">★ ★ ★ ★ ★</div>
-              <div class="profile d-flex flex-column align-items-center">
-                <div
-                  class="profile-img-wrapper"
-                  data-aos="zoom-in"
-                  data-aos-delay="500"
-                >
-                  <img
-                    src="assets/images.jpg"
-                    alt="Profile Picture"
-                    class="rounded-circle shadow"
-                    style="width: 80px; height: 80px; object-fit: cover"
-                  />
-                </div>
-                <div class="profile-name mt-3 fw-bold">Hosain Al-Amin</div>
-                <div class="profile-role text-muted">Developer</div>
-              </div>
-            </div>
-          </div>
+  <!-- Add this before your closing body tag -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 
-          <!-- Card 3 -->
-          <div class="col-md-4 mb-4">
-            <div
-              class="testimonial-card"
-              data-aos="zoom-in"
-              data-aos-duration="500"
-              data-aos-delay="500"
-            >
-              <div class="quote-icon">
-                <i
-                  class="bi bi-quote"
-                  style="color: #ff4c29; font-size: 2.5rem"
-                ></i>
-              </div>
-              <p class="testimonial-text">
-                "Paradigms. Monotonectally extend open-source via competitive
-                methods of empowerment and revolutionize stand-business."
-              </p>
-              <div class="stars mb-3" style="color: #ffc107">★ ★ ★ ★ ★</div>
-              <div class="profile d-flex flex-column align-items-center">
-                <div
-                  class="profile-img-wrapper"
-                  data-aos="zoom-in"
-                  data-aos-delay="700"
-                >
-                  <img
-                    src="assets/images.jpg"
-                    alt="Profile Picture"
-                    class="rounded-circle shadow"
-                    style="width: 80px; height: 80px; object-fit: cover"
-                  />
-                </div>
-                <div class="profile-name mt-3 fw-bold">M. Kamrul Islam</div>
-                <div class="profile-role text-muted">Developer</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <div class="container-fluid py-5 overflow-hidden">
-      <div class="row align-items-center g-4">
-        <!-- Form Section - Rain Drop Animation -->
-        <div class="col-12 col-md-6">
-          <div
-            class="form-container px-3"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-easing="ease-out-back"
-          >
-            <div
-              class="form-title mb-3"
-              data-aos="fade-down"
-              data-aos-delay="200"
-            >
-              Make an Online Appointment Booking<br />
-              For Business Planning
-            </div>
-            <form>
-              <!-- Animated Form Rows -->
-              <div class="row mb-3">
-                <div
-                  class="col-12 col-sm-6 mb-2 mb-sm-0"
-                  data-aos="fade-right"
-                  data-aos-delay="300"
-                >
-                  <input
-                    type="text"
-                    class="form-control rain-drop"
-                    placeholder="Your Name *"
-                    required
-                  />
-                </div>
-                <div
-                  class="col-12 col-sm-6"
-                  data-aos="fade-left"
-                  data-aos-delay="400"
-                >
-                  <input
-                    type="email"
-                    class="form-control rain-drop"
-                    placeholder="Your E-Mail *"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div
-                  class="col-12 col-sm-6 mb-2 mb-sm-0"
-                  data-aos="fade-right"
-                  data-aos-delay="500"
-                >
-                  <input
-                    type="text"
-                    class="form-control rain-drop"
-                    placeholder="Subject *"
-                    required
-                  />
-                </div>
-                <div
-                  class="col-12 col-sm-6"
-                  data-aos="fade-left"
-                  data-aos-delay="600"
-                >
-                  <input
-                    type="tel"
-                    class="form-control rain-drop"
-                    placeholder="Phone *"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-delay="700">
-                <textarea
-                  class="form-control rain-drop"
-                  placeholder="Message"
-                  rows="4"
-                  required
-                ></textarea>
-              </div>
-              <div data-aos="zoom-in" data-aos-delay="800">
-                <button
-                  type="submit"
-                  class="btn btn-custom btn-submit w-50 text-white rain-drop"
-                >
-                  Send Now
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <!-- Image Section - Animated -->
-        <div
-          class="col-12 col-md-6 text-center"
-          data-aos="zoom-in-left"
-          data-aos-delay="300"
-        >
-          <img
-            src="assets/contact.jpg"
-            alt="Team Meeting"
-            class="img-fluid floating-img"
-          />
-        </div>
-      </div>
-    </div>
-
-    <footer class="text-white pt-5 pb-4 position-relative overflow-hidden">
-      <!-- Rain animation elements -->
-      <div class="rain-animation">
-        <div class="rain-drop"></div>
-        <div class="rain-drop"></div>
-        <div class="rain-drop"></div>
-        <!-- Add more drops as needed -->
-      </div>
-
-      <div class="container text-center text-md-start">
-        <div class="row text-center text-md-start">
-          <!-- Logo & Description -->
-          <div class="col-md-3 col-lg-6 col-xl-3 mx-auto mt-3">
-            <a
-              class="navbar-brand d-flex align-items-center logo-animate"
-              href="#"
-            >
-              <img
-                src="assets/milan-logo.png"
-                alt="Logo"
-                class="img-fluid footer-logo"
-              />
-            </a>
-            <p class="fade-in-text">
-              Globally monetize plug-and-play data and disseminate oriented
-              business multifunctional mind design.
-            </p>
-            <div class="social-icons">
-              <a href="#" class="text-white me-4 social-icon"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a href="#" class="text-white me-4 social-icon"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a href="#" class="text-white me-4 social-icon"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="#" class="text-white me-4 social-icon"
-                ><i class="fab fa-youtube"></i
-              ></a>
-            </div>
-          </div>
-
-          <!-- Useful Links -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Useful Links</h5>
-            <p>
-              <a
-                href="about.html"
-                class="text-white text-decoration-none footer-navlink"
-                >About Company</a
-              >
-            </p>
-            <p>
-              <a
-                href="team.html"
-                class="text-white text-decoration-none footer-navlink"
-                >Meet Our Team</a
-              >
-            </p>
-            <p>
-              <a
-                href="contact.html"
-                class="text-white text-decoration-none footer-navlink"
-                >Contact Us</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none footer-navlink"
-                >Testimonials</a
-              >
-            </p>
-          </div>
-
-          <!-- Services -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Services</h5>
-            <p>
-              <a href="#" class="text-white text-decoration-none footer-navlink"
-                >Cyber Security</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none footer-navlink"
-                >UI/UX Design</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none footer-navlink"
-                >App Development</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none footer-navlink"
-                >Technology Consult</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none footer-navlink"
-                >IT Solution</a
-              >
-            </p>
-          </div>
-
-          <!-- Newsletter -->
-          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Newsletter</h5>
-            <p class="fade-in-text">
-              Subscribe to get the latest updates and offers.
-            </p>
-
-            <form class="d-flex">
-              <input
-                type="email"
-                class="form-control me-2 input-animate"
-                placeholder="Enter your email"
-                required
-              />
-              <button class="btn btn-danger btn-animate" type="submit">
-                <i class="fas fa-paper-plane"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-
-        <!-- Copyright -->
-        <hr class="mb-4" />
-        <div class="row align-items-center">
-          <div class="col-md-7 col-lg-8">
-            <p class="fade-in-text">
-              © 2025 Milen Advanced Technologies. All Rights Reserved.
-            </p>
-          </div>
-          <div class="col-md-5 col-lg-4">
-            <div class="text-center text-md-end">
-              <a
-                href="#"
-                class="text-white text-decoration-none me-4 link-animate"
-                >Privacy Policy</a
-              >
-              <a href="#" class="text-white text-decoration-none link-animate"
-                >Supports</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Add these scripts at the end of your body -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
-    <script src="./script.js"></script>
-    <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Add this before your closing body tag -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
 </html>

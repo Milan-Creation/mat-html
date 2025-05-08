@@ -1,436 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Milan Advanced Technologies</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <!-- swiper link -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Milan Advanced Technologies</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- swiper link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style.css" />
 
-    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
-  </head>
-  <body>
-    
-    <!-- Top Bar -->
-    <div class="top-bar py-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <!-- Left side: contact info -->
-          <div class="col-12 col-md-8 mb-2 mb-md-0 navs-section">
-            <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 gap-md-4">
-              <div>
-                <i class="fas fa-map-marker-alt me-1"></i>
-                <a href="https://www.google.com/maps/search/?api=1&query=1st+Floor,+101,+SCO+21,+Feroze+Gandhi+Market+Rd,+Ludhiana,+Punjab+141002" target="_blank">
-                  1st Floor, 105, SCO 21, Feroze Gandhi Market Rd, Ludhiana, Punjab 141002
-                </a>
-              </div>
-              <div>
-                <i class="fas fa-envelope me-1"></i>
-                <a href="mailto:support@mattech.dev">support@mattech.dev</a>
-              </div>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+
+  <!-- Add these in your head section or CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar py-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left side: contact info -->
+        <div class="col-12 col-md-8 mb-2 mb-md-0 navs-section">
+          <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 gap-md-4">
+            <div>
+              <i class="fas fa-map-marker-alt me-1"></i>
+              <a href="https://www.google.com/maps/search/?api=1&query=1st+Floor,+101,+SCO+21,+Feroze+Gandhi+Market+Rd,+Ludhiana,+Punjab+141002"
+                target="_blank">
+                1st Floor, 105, SCO 21, Feroze Gandhi Market Rd, Ludhiana, Punjab 141002
+              </a>
             </div>
-            
+            <div>
+              <i class="fas fa-envelope me-1"></i>
+              <a href="mailto:support@mattech.dev">support@mattech.dev</a>
+            </div>
           </div>
 
-          <!-- Right side: social icons -->
-          <div class="col-12 col-md-4 text-md-end social-icons-navbar">
-            <div
-              class="social-icons d-flex justify-content-start justify-content-md-end gap-2"
-            >
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            </div>
+        </div>
+
+        <!-- Right side: social icons -->
+        <div class="col-12 col-md-4 text-md-end social-icons-navbar">
+          <div class="social-icons d-flex justify-content-start justify-content-md-end gap-2">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/milan-logo.png" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="companyDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">About Us</a></li>
+              <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="services.html">Services</a>
+          </li>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-          <img src="assets/milan-logo.png" alt="Logo" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto align-items-lg-center">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-dark"
-                href="#"
-                id="companyDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                Company
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                <li><a class="dropdown-item" href="team.html">Our Team</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="services.html">Services</a>
-            </li>
-
-            <li class="nav-item ms-3">
-              <a href="contact.html" class="btn-quote">GET A QUOTE NOW</a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item ms-3">
+            <a href="contact.html" class="btn-quote">GET A QUOTE NOW</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+    <div>
+      <h1 class="display-4 fw-bold">Services</h1>
+      <nav aria-label="breadcrumb" class="d-flex justify-content-center mt-3">
+        <ol class="breadcrumb bg-transparent">
+          <li class="breadcrumb-item">
+            <a href="index.html" class="text-white text-decoration-none">Home</a>
+          </li>
+          <li class="breadcrumb-item active text-colors" aria-current="page">
+            Services
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section
-      class="hero-section text-center text-white d-flex align-items-center justify-content-center"
-    >
-      <div>
-        <h1 class="display-4 fw-bold">Services</h1>
-        <nav aria-label="breadcrumb" class="d-flex justify-content-center mt-3">
-          <ol class="breadcrumb bg-transparent">
-            <li class="breadcrumb-item">
-              <a href="index.html" class="text-white text-decoration-none"
-                >Home</a
-              >
-            </li>
-            <li class="breadcrumb-item active text-colors" aria-current="page">
-              Services
-            </li>
-          </ol>
-        </nav>
+  <div class="container py-5">
+    <div class="text-center mb-5 position-relative overflow-hidden">
+      <!-- Bubble Animation Container -->
+      <div class="bubble-animation">
+        <span class="bubble"></span>
+        <span class="bubble"></span>
+        <span class="bubble"></span>
+        <span class="bubble"></span>
+        <span class="bubble"></span>
       </div>
-    </section>
 
-    <div class="container py-5">
-      <div class="text-center mb-5">
-        <div class="badge-custom mb-3 d-inline-block text-uppercase">
+      <!-- Content with Animations -->
+      <div class="animate__animated animate__zoomInLeft animate__delay-1s">
+        <div
+          class="badge-custom mb-3 d-inline-block text-uppercase animate__animated animate__fadeIn animate__delay-2s">
           Milan Advanced Technologies
         </div>
-        <h2 class="fw-bold">
+        <h2 class="fw-bold animate__animated animate__fadeInUp animate__delay-3s">
           How Professional IT Services <br />
-          Can Drive <span class="text-orange">Success.</span>
+          Can Drive <span class="text-orange animate__animated animate__pulse animate__infinite">Success.</span>
         </h2>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Card 1 - Zoom In Right -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card service-card h-100 animate__animated animate__zoomInRight animate__delay-1s">
+          <div class="bubble-animation">
+            <span class="bubble"></span>
+            <span class="bubble"></span>
+            <span class="bubble"></span>
+          </div>
+          <img src="assets/service-thumb1.png" alt="Digital Marketing" class="service-img img-fluid" />
+          <div class="card-body text-center d-flex flex-column">
+            <div class="icon-circles mb-3 animate__animated animate__fadeIn animate__delay-2s">
+              <img src="assets/service-icon-1.png" />
+            </div>
+            <h5 class="card-title fw-bold animate__animated animate__fadeIn animate__delay-3s">Digital Marketing</h5>
+            <p class="card-text small text-muted flex-grow-1 animate__animated animate__fadeIn animate__delay-4s">
+              Marketing repurpose success tech sapien maximus design.
+            </p>
+            <a href="#" class="btn btn-learns btn-sm mt-2 animate__animated animate__fadeInUp animate__delay-5s">Learn
+              More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 - Zoom In Up -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card service-card h-100 animate__animated animate__zoomInUp animate__delay-1s">
+          <div class="bubble-animation">
+            <span class="bubble"></span>
+            <span class="bubble"></span>
+            <span class="bubble"></span>
+          </div>
+          <img src="assets/service-thumb2.png" alt="Database Security" class="service-img img-fluid" />
+          <div class="card-body text-center d-flex flex-column">
+            <div class="icon-circles mb-3 animate__animated animate__fadeIn animate__delay-2s">
+              <img src="assets/service-icon-1.png" />
+            </div>
+            <h5 class="card-title fw-bold animate__animated animate__fadeIn animate__delay-3s">Database Security</h5>
+            <p class="card-text small text-muted flex-grow-1 animate__animated animate__fadeIn animate__delay-4s">
+              Marketing repurpose success tech sapien maximus design.
+            </p>
+            <a href="#" class="btn btn-learns btn-sm mt-2 animate__animated animate__fadeInUp animate__delay-5s">Learn
+              More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 - Zoom In Down -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card service-card h-100 animate__animated animate__zoomInDown animate__delay-1s">
+          <div class="bubble-animation">
+            <span class="bubble"></span>
+            <span class="bubble"></span>
+            <span class="bubble"></span>
+          </div>
+          <img src="assets/service-thumb3.png" alt="App Development" class="service-img img-fluid" />
+          <div class="card-body text-center d-flex flex-column">
+            <div class="icon-circles mb-3 animate__animated animate__fadeIn animate__delay-2s">
+              <img src="assets/service-icon-1.png" />
+            </div>
+            <h5 class="card-title fw-bold animate__animated animate__fadeIn animate__delay-3s">App Development</h5>
+            <p class="card-text small text-muted flex-grow-1 animate__animated animate__fadeIn animate__delay-4s">
+              Marketing repurpose success tech sapien maximus design.
+            </p>
+            <a href="#" class="btn btn-learns btn-sm mt-2 animate__animated animate__fadeInUp animate__delay-5s">Learn
+              More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 - Zoom In Left -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card service-card h-100 animate__animated animate__zoomInLeft animate__delay-1s">
+          <div class="bubble-animation">
+            <span class="bubble"></span>
+            <span class="bubble"></span>
+            <span class="bubble"></span>
+          </div>
+          <img src="assets/service-thumb4.png" alt="UI/UX Design" class="service-img img-fluid" />
+          <div class="card-body text-center d-flex flex-column">
+            <div class="icon-circles mb-3 animate__animated animate__fadeIn animate__delay-2s">
+              <img src="assets/service-icon-1.png" />
+            </div>
+            <h5 class="card-title fw-bold animate__animated animate__fadeIn animate__delay-3s">UI/UX Design</h5>
+            <p class="card-text small text-muted flex-grow-1 animate__animated animate__fadeIn animate__delay-4s">
+              Marketing repurpose success tech sapien maximus design.
+            </p>
+            <a href="#" class="btn btn-learns btn-sm mt-2 animate__animated animate__fadeInUp animate__delay-5s">Learn
+              More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="team-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="badge-custom mb-3 d-inline-block text-uppercase">
+          OUR TEAM MEMBER
+        </div>
+        <h2 class="fw-bold">Dedicated Team Members</h2>
       </div>
 
       <div class="row g-4">
-        <!-- Card Template -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="card service-card h-100">
-            <img
-              src="assets/service-thumb1.png"
-              alt="Digital Marketing"
-              class="service-img img-fluid"
-            />
-            <div class="card-body text-center d-flex flex-column">
-              <div class="icon-circles mb-3">
-                <img src="assets/service-icon-1.png" />
+        <!-- Team Member 1 - Zoom In Right -->
+        <div class="col-md-6 col-lg-3">
+          <div class="team-member animate__animated animate__zoomInRight animate__delay-1s">
+            <div class="bubble-animation">
+              <span class="bubble"></span>
+              <span class="bubble"></span>
+              <span class="bubble"></span>
+            </div>
+            <img src="assets/team-thu.png" alt="James Berline"
+              class="animate__animated animate__fadeIn animate__delay-2s" />
+            <div class="team-content">
+              <h5 class="animate__animated animate__fadeInUp animate__delay-3s">James Berline</h5>
+              <p class="animate__animated animate__fadeInUp animate__delay-4s">React Developer</p>
+              <div class="team-social animate__animated animate__fadeInUp animate__delay-5s">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
               </div>
-              <h5 class="card-title fw-bold">Digital Marketing</h5>
-              <p class="card-text small text-muted flex-grow-1">
-                Marketing repurpose success tech sapien maximus design.
-              </p>
-              <a href="#" class="btn btn-learns btn-sm mt-2">Learn More</a>
             </div>
           </div>
         </div>
 
-        <!-- Repeat for other cards -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="card service-card h-100">
-            <img
-              src="assets/service-thumb2.png"
-              alt="Database Security"
-              class="service-img img-fluid"
-            />
-            <div class="card-body text-center d-flex flex-column">
-              <div class="icon-circles mb-3">
-                <img src="assets/service-icon-1.png" />
+        <!-- Team Member 2 - Zoom In Up -->
+        <div class="col-md-6 col-lg-3">
+          <div class="team-member animate__animated animate__zoomInUp animate__delay-1s">
+            <div class="bubble-animation">
+              <span class="bubble"></span>
+              <span class="bubble"></span>
+              <span class="bubble"></span>
+            </div>
+            <img src="assets/team-thu3.png" alt="Bella Zubena"
+              class="animate__animated animate__fadeIn animate__delay-2s" />
+            <div class="team-content">
+              <h5 class="animate__animated animate__fadeInUp animate__delay-3s">Bella Zubena</h5>
+              <p class="animate__animated animate__fadeInUp animate__delay-4s">Graphic Designer</p>
+              <div class="team-social animate__animated animate__fadeInUp animate__delay-5s">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
               </div>
-              <h5 class="card-title fw-bold">Database Security</h5>
-              <p class="card-text small text-muted flex-grow-1">
-                Marketing repurpose success tech sapien maximus design.
-              </p>
-              <a href="#" class="btn btn-learns btn-sm mt-2">Learn More</a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="card service-card h-100">
-            <img
-              src="assets/service-thumb3.png"
-              alt="App Development"
-              class="service-img img-fluid"
-            />
-            <div class="card-body text-center d-flex flex-column">
-              <div class="icon-circles mb-3">
-                <img src="assets/service-icon-1.png" />
+        <!-- Team Member 3 - Zoom In Down -->
+        <div class="col-md-6 col-lg-3">
+          <div class="team-member animate__animated animate__zoomInDown animate__delay-1s">
+            <div class="bubble-animation">
+              <span class="bubble"></span>
+              <span class="bubble"></span>
+              <span class="bubble"></span>
+            </div>
+            <img src="assets/team-thu4.png" alt="Juliya Jesmine"
+              class="animate__animated animate__fadeIn animate__delay-2s" />
+            <div class="team-content">
+              <h5 class="animate__animated animate__fadeInUp animate__delay-3s">Juliya Jesmine</h5>
+              <p class="animate__animated animate__fadeInUp animate__delay-4s">UX Researcher</p>
+              <div class="team-social animate__animated animate__fadeInUp animate__delay-5s">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
               </div>
-              <h5 class="card-title fw-bold">App Development</h5>
-              <p class="card-text small text-muted flex-grow-1">
-                Marketing repurpose success tech sapien maximus design.
-              </p>
-              <a href="#" class="btn btn-learns btn-sm mt-2">Learn More</a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="card service-card h-100">
-            <img
-              src="assets/service-thumb4.png"
-              alt="UI/UX Design"
-              class="service-img img-fluid"
-            />
-            <div class="card-body text-center d-flex flex-column">
-              <div class="icon-circles mb-3">
-                <img src="assets/service-icon-1.png" />
-              </div>
-              <h5 class="card-title fw-bold">UI/UX Design</h5>
-              <p class="card-text small text-muted flex-grow-1">
-                Marketing repurpose success tech sapien maximus design.
-              </p>
-              <a href="#" class="btn btn-learns btn-sm mt-2">Learn More</a>
+        <!-- Team Member 4 - Zoom In Left -->
+        <div class="col-md-6 col-lg-3">
+          <div class="team-member animate__animated animate__zoomInLeft animate__delay-1s">
+            <div class="bubble-animation">
+              <span class="bubble"></span>
+              <span class="bubble"></span>
+              <span class="bubble"></span>
             </div>
+            <img src="assets/team-thu2.png" alt="Kemnei Alekzend"
+              class="animate__animated animate__fadeIn animate__delay-2s" />
+            <div class="team-content">
+              <h5 class="animate__animated animate__fadeInUp animate__delay-3s">Kemnei Alekzend</h5>
+              <p class="animate__animated animate__fadeInUp animate__delay-4s">Digital Marketer</p>
+              <div class="team-social animate__animated animate__fadeInUp animate__delay-5s">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer class="text-white pt-5 pb-4 position-relative overflow-hidden">
+    <!-- Rain animation elements -->
+    <div class="rain-animation">
+      <div class="rain-drop"></div>
+      <div class="rain-drop"></div>
+      <div class="rain-drop"></div>
+      <!-- Add more drops as needed -->
+    </div>
+
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+        <!-- Logo & Description -->
+        <div class="col-md-3 col-lg-6 col-xl-3 mx-auto mt-3">
+          <a class="navbar-brand d-flex align-items-center logo-animate" href="#">
+            <img src="assets/milan-logo.png" alt="Logo" class="img-fluid footer-logo" />
+          </a>
+          <p class="fade-in-text">
+            Globally monetize plug-and-play data and disseminate oriented
+            business multifunctional mind design.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="text-white me-4 social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-4 social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-4 social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white me-4 social-icon"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Useful Links</h5>
+          <p>
+            <a href="about.html" class="text-white text-decoration-none footer-navlink">About Company</a>
+          </p>
+          <p>
+            <a href="team.html" class="text-white text-decoration-none footer-navlink">Meet Our Team</a>
+          </p>
+          <p>
+            <a href="contact.html" class="text-white text-decoration-none footer-navlink">Contact Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">Testimonials</a>
+          </p>
+        </div>
+
+        <!-- Services -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Services</h5>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">Cyber Security</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">UI/UX Design</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">App Development</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">Technology Consult</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none footer-navlink">IT Solution</a>
+          </p>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Newsletter</h5>
+          <p class="fade-in-text">
+            Subscribe to get the latest updates and offers.
+          </p>
+
+          <form class="d-flex">
+            <input type="email" class="form-control me-2 input-animate" placeholder="Enter your email" required />
+            <button class="btn btn-danger btn-animate" type="submit">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <hr class="mb-4" />
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p class="fade-in-text">
+            © 2025 Milen Advanced Technologies. All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-end">
+            <a href="#" class="text-white text-decoration-none me-4 link-animate">Privacy Policy</a>
+            <a href="#" class="text-white text-decoration-none link-animate">Supports</a>
           </div>
         </div>
       </div>
     </div>
+  </footer>
 
-    <section class="team-section">
-      <div class="container">
-        <div class="text-center mb-5">
-          <div class="badge-custom mb-3 d-inline-block text-uppercase">
-            OUR TEAM MEMBER
-          </div>
-          <h2 class="fw-bold">Dedicated Team Members</h2>
-        </div>
-        <div class="row g-4">
-          <!-- Team Member 1 -->
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img src="assets/team-thu.png" alt="James Berline" />
-              <div class="team-content">
-                <h5>James Berline</h5>
-                <p>React Developer</p>
-                <div class="team-social">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-          <!-- Team Member 2 -->
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img src="assets/team-thu3.png" alt="Bella Zubena" />
-              <div class="team-content">
-                <h5>Bella Zubena</h5>
-                <p>Graphic Designer</p>
-                <div class="team-social">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Team Member 3 -->
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img src="assets/team-thu4.png" alt="Juliya Jesmine" />
-              <div class="team-content">
-                <h5>Juliya Jesmine</h5>
-                <p>UX Researcher</p>
-                <div class="team-social">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Team Member 4 -->
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img src="assets/team-thu2.png" alt="Kemnei Alekzend" />
-              <div class="team-content">
-                <h5>Kemnei Alekzend</h5>
-                <p>Digital Marketer</p>
-                <div class="team-social">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="text-white pt-5 pb-4">
-      <div class="container text-md-start">
-        <div class="row text-md-start">
-          <!-- Logo & Description -->
-          <div class="col-md-3 col-lg-6 col-xl-3 mx-auto mt-3">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-              <img src="assets/milan-logo.png" alt="Logo" />
-            </a>
-            <p>
-              Globally monetize plug-and-play data and disseminate oriented
-              business multifunctional mind design.
-            </p>
-            <div>
-              <a href="#" class="text-white me-4"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a href="#" class="text-white me-4"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a href="#" class="text-white me-4"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="#" class="text-white me-4"
-                ><i class="fab fa-youtube"></i
-              ></a>
-            </div>
-          </div>
-
-          <!-- Useful Links -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Useful Links</h5>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >About Company</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >Meet Our Team</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >Latest Blog</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none">Contact Us</a>
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >Testimonials</a
-              >
-            </p>
-          </div>
-
-          <!-- Services -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Services</h5>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >Cyber Security</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >UI/UX Design</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >App Development</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >Technology Consult</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white text-decoration-none"
-                >IT Solution</a
-              >
-            </p>
-          </div>
-
-          <!-- Newsletter -->
-          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Newsletter</h5>
-            <p>Subscribe to get the latest updates and offers.</p>
-            <form class="d-flex">
-              <input
-                type="email"
-                class="form-control me-2"
-                placeholder="Enter your email"
-              />
-              <button class="btn btn-danger" type="submit">
-                <i class="fas fa-paper-plane"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-
-        <!-- Copyright -->
-        <hr class="mb-4" />
-        <div class="row align-items-center">
-          <div class="col-md-7 col-lg-8">
-            <p>© 2025 Milen Advanced Technologies. All Rights Reserved.</p>
-          </div>
-          <div class="col-md-5 col-lg-4">
-            <div class="text-center text-md-end">
-              <a href="#" class="text-white text-decoration-none me-4"
-                >Privacy Policy</a
-              >
-              <a href="#" class="text-white text-decoration-none">Supports</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
-    <script src="./script.js"></script>
-    <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>
