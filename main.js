@@ -121,3 +121,48 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.animate-on-scroll').forEach(el => {
   observer.observe(el);
 });
+
+        document.addEventListener("DOMContentLoaded", function () {
+          const heading = document.querySelector(".animated-heading");
+
+          // Make heading visible after a short delay
+          setTimeout(() => {
+            heading.classList.add("visible");
+          }, 300);
+
+          // Optional: Add animation on scroll
+          window.addEventListener("scroll", function () {
+            const elementPosition = heading.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+
+            if (elementPosition < screenPosition) {
+              heading.classList.add("visible");
+            }
+          });
+        });
+
+          // Optional: Add scroll animation trigger
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      $('.testimonial-card').each(function() {
+        var cardPosition = $(this).offset().top;
+        var scrollPosition = $(window).scrollTop() + $(window).height();
+        
+        if (scrollPosition > cardPosition) {
+          $(this).addClass('animate__fadeInUp');
+        }
+      });
+    }).scroll(); // Trigger on load
+  });
+  
+   document.addEventListener("DOMContentLoaded", function () {
+     const navbar = document.querySelector(".navbar");
+
+     window.addEventListener("scroll", function () {
+       if (window.scrollY > 50) {
+         navbar.classList.add("navbar-scrolled");
+       } else {
+         navbar.classList.remove("navbar-scrolled");
+       }
+     });
+   });
