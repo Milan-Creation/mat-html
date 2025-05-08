@@ -2215,7 +2215,6 @@ img.img-fluid.floating-img {
 
   /* Container styling */
   .position-relative {
-    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
     border-radius: 15px;
     padding: 30px 20px !important;
     margin-bottom: 40px !important;
