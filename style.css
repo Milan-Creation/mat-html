@@ -772,7 +772,7 @@ img {
   line-height: 20px;
 }
 
-
+/* 
 
 section {
   position: relative;
@@ -782,7 +782,7 @@ section {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
+} */
 
 .swiper {
   width: 100%;
@@ -2021,205 +2021,6 @@ img.img-fluid.floating-img {
 .animate__pulse.animate__infinite {
   animation-name: pulseOrange;
 }
-
-  /* Service Card Styling */
-  .service-card {
-    position: relative;
-    overflow: hidden;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .service-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-  }
-  
-  .service-img {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    transition: transform 0.5s ease;
-  }
-  
-  .service-card:hover .service-img {
-    transform: scale(1.05);
-  }
-  
-  .icon-circles {
-    width: 80px;
-    height: 80px;
-    margin: -40px auto 0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    border: 5px solid #f8f9fa;
-  }
-  
-  .btn-learns {
-    background-color: #ff6b00;
-    color: white;
-    border-radius: 30px;
-    padding: 8px 20px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-  }
-  
-  .btn-learns:hover {
-    background-color: #e05d00;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(255,107,0,0.3);
-  }
-  
-  /* Bubble Animation Styles */
-  .bubble-animation {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    overflow: hidden;
-  }
-  
-  .bubble {
-    position: absolute;
-    bottom: -50px;
-    background: rgba(255, 107, 0, 0.1);
-    border-radius: 50%;
-    animation: bubble 12s infinite ease-in;
-  }
-  
-  .bubble:nth-child(1) {
-    width: 30px;
-    height: 30px;
-    left: 10%;
-    animation-delay: 0s;
-  }
-  
-  .bubble:nth-child(2) {
-    width: 20px;
-    height: 20px;
-    left: 50%;
-    animation-delay: 2s;
-  }
-  
-  .bubble:nth-child(3) {
-    width: 40px;
-    height: 40px;
-    left: 80%;
-    animation-delay: 4s;
-  }
-  
-  @keyframes bubble {
-    0% {
-      bottom: -50px;
-      transform: translateX(0);
-      opacity: 0;
-    }
-    50% {
-      opacity: 0.4;
-    }
-    100% {
-      bottom: 100%;
-      transform: translateX(20px);
-      opacity: 0;
-    }
-  }
-  
-  /* Content positioning */
-  .card-body > * {
-    position: relative;
-    z-index: 1;
-  }
-
-    /* Bubble Animation Styles */
-  .bubble-animation {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    overflow: hidden;
-  }
-  
-  .bubble {
-    position: absolute;
-    bottom: -100px;
-    background: rgba(0, 123, 255, 0.15); /* Blue bubbles for professional look */
-    border-radius: 50%;
-    animation: bubble 18s infinite ease-in;
-  }
-  
-  .bubble:nth-child(1) {
-    width: 40px;
-    height: 40px;
-    left: 10%;
-    animation-delay: 0s;
-  }
-  
-  .bubble:nth-child(2) {
-    width: 25px;
-    height: 25px;
-    left: 30%;
-    animation-delay: 3s;
-  }
-  
-  .bubble:nth-child(3) {
-    width: 35px;
-    height: 35px;
-    left: 50%;
-    animation-delay: 6s;
-  }
-  
-  .bubble:nth-child(4) {
-    width: 20px;
-    height: 20px;
-    left: 70%;
-    animation-delay: 2s;
-  }
-  
-  .bubble:nth-child(5) {
-    width: 30px;
-    height: 30px;
-    left: 90%;
-    animation-delay: 4s;
-  }
-  
-  @keyframes bubble {
-    0% {
-      bottom: -100px;
-      transform: translateX(0) rotate(0deg);
-      opacity: 0;
-    }
-    30% {
-      opacity: 0.4;
-    }
-    100% {
-      bottom: 100%;
-      transform: translateX(50px) rotate(360deg);
-      opacity: 0;
-    }
-  }
-  
-  /* Content positioning */
-  .text-center > div:last-child {
-    position: relative;
-    z-index: 1;
-  }
-  
-
-  /* Container styling */
-  .position-relative {
-    border-radius: 15px;
-    padding: 30px 20px !important;
-    margin-bottom: 40px !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  }
 
    .team-member {
     position: relative;
