@@ -1323,9 +1323,19 @@ li.breadcrumb-item.active.text-colors {
   font-weight: bold;
   padding: 8px 16px;
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 18px;
 }
+@media (max-width:568px){
+  .badge-custom {
+    background-color: #ffe8d6;
+    color: #ff6f00;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 12px;
+  }
 
+}
 .icon-circles {
   background: #ff6f00;
   width: 50px;
@@ -2144,3 +2154,35 @@ img.img-fluid.floating-img {
     position: relative;
     z-index: 1;
   }
+
+  
+.breadcrumb-item+.breadcrumb-item::before {
+  float: left;
+  padding-right: var(--bs-breadcrumb-item-padding-x);
+  color: rgb(255 255 255 / 75%);
+  content: var(--bs-breadcrumb-divider, "/");
+}
+
+.faq-section {
+  padding: 60px 0;
+}
+.faq-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.accordion-button {
+  font-weight: 600;
+}
+
+.floating-image {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+}

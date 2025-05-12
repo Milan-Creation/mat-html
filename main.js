@@ -166,3 +166,6 @@ document.querySelectorAll('.animate-on-scroll').forEach(el => {
        }
      });
    });
+
+   // Initialize AOS
+AOS.init();
